@@ -197,7 +197,168 @@ body{
 	width: 60px;
 }
 
+/*== Reservation Section ==*/
+.reservation-bluish{
+    color: #55A8AE;
+}
+.res-button{
+    background: #55A8AE;
+}
+.body-width{
+    width:100%;
+}
 
+@media (max-width: 768px){
+.pics{
+    width:50%;
+}
+}
+/*== Rooms and Rates ==*/
+.room-bluish{
+    color: #55A8AE;
+}
+#room-font p{
+    font-size: 13px;
+}
+.room-width{
+    width: 100%;
+}
+
+/*@media screen and (min-width: 576px){
+    .pricing-img {
+        width:60%;
+    }
+@media screen and (max-width: 768px){
+    .pricing-img {
+        width:80%;
+    }
+}
+/*== facility ==*
+.facility-img{
+    display: block;
+    width: 100%;
+}
+.facility-bluish{
+    color: #55A8AE;
+}
+
+.facility-relative {
+    position:relative;
+}
+
+
+.facility-text{
+    display: flex;
+    position: absolute;
+    left: 0;
+    flex-direction:column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.facility-width{
+    width:100%;
+}
+
+#content-cocktail {
+    background-image: url(Resources/cocktail 1.png);
+}
+
+#facility-sp{
+    height: 60px;
+    width: 60px;
+}
+
+
+*/
+
+/*== Contact Section ==*/
+
+
+@media screen and (min-width: 871px){
+div#contact-sec{
+    max-width:70%;
+    max-height: 50%;
+}
+}
+
+.contactus-color{
+    color: #55A8AE;
+}
+
+.room-bluish{
+    color: #55A8AE;
+}
+#room-font p{
+    font-size: 13px;
+}
+room-width{
+    width: 100%;
+}
+
+.con-background{
+background-color: #55A8AE;
+}
+
+#contact-sec form {
+  /*display:flex;
+  flex-direction:column;
+  align-items:center;*/
+  max-width:200px;
+/*  margin:0 auto; */
+}
+
+
+#contact-sec form input/*:not([type="submit"])*/,
+#contact-sec form textarea {
+  width:100%;
+  adding:20px;
+  argin-bottom: 10px;
+  border: 1px solid #ccc;
+  font-size:14px;
+  box-sizing: border-box;
+  outline:none;
+}
+#contact-sec form textarea{
+  height: 50;
+  resize: none;
+}
+
+#contact-sec form *::-webkit-input-placeholder {
+  color:#ccc;
+  font-style:italic;
+}
+
+#contact-sec form *::-moz-placeholder {
+  color:#ccc;
+  font-style:italic;
+}
+
+#contact-sec form *:-ms-input-placeholder {
+  color:#ccc;
+  font-style:italic;
+}
+
+#contact-sec form *:-moz-input-placeholder {
+  color:#ccc;
+  font-style:italic;
+}
+
+#contact-sec input[type="submit"]{
+  border:none;
+  padding:5px 40px;
+}
+
+#contact-secs input[type="submit"]:hover{
+  background: #55A8AE;
+  color:#fff;
+}
+
+.google-pic{
+  max-width: 200px;
+  box-sizing: border-box;
+}
 
 
 /*== Footer section ==*/
@@ -225,3 +386,171 @@ i.icon-location, i.icon-phone, i.icon-mail {
     padding-top: 5px;
 }
 
+.gbe-body{
+    width:100%;
+}
+.footer-margin{
+    padding-left:50px;
+}
+
+/*== section-4==*/
+.section-4 {
+  box-sizing: border-box;
+}
+
+.section-4 {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+/* FACILITIES */
+.facility-container {
+  display: flex;
+  flex-direction: column;
+  background-image: url('Resources/concrete-building.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  padding: 80px 0;
+  box-sizing: border-box;
+}
+
+/* dark overlay */
+.facility-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.facility-container img {
+  width: 120px;
+  height: 120px;
+  color: #fff;
+}
+
+.facility-container h2 {
+  text-align: center;
+}
+
+#offers h1,
+#testimony h1 {
+  font-size: 2.5rem;
+  color: #55a8ae;
+  text-align: center;
+  padding: 25px 0;
+}
+
+.facility-container div {
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  z-index: 1;
+}
+
+.facility-container .row-a,
+.facility-container .row-b {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.row1,
+.row2,
+.row3,
+.row4,
+.row5,
+.row6 {
+  flex: 1;
+}
+
+/* TESTIMONIALS */
+.testimonials-container {
+  display: flex;
+  padding: 10px 20px 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.testimony {
+  width: 800px;
+  height: 300px;
+  text-align: center;
+  margin: auto;
+  font-size: 1.2rem;
+}
+
+.testimony em {
+  font-weight: 300;
+}
+
+.testimony > img {
+  width: 120px;
+  height: 120px;
+  border: 0;
+  border-radius: 50%;
+}
+
+.testimonials-container .btn {
+  position: absolute;
+  bottom: 100%;
+  right: 15%;
+}
+
+.testimonials-container .btn button {
+  border: 1px solid #55a8ae;
+  border-radius: 4px;
+  margin: 0 3px;
+}
+
+@media (max-width: 500px) {
+  .facility-container {
+    padding: 0;
+  }
+
+  .facility-container div {
+    z-index: 3;
+  }
+
+  .facility-container img {
+    width: 80px;
+    height: 80px;
+    color: #fff;
+  }
+
+  .facility-container .row-a,
+  .facility-container .row-b {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .testimony > img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 700px) {
+  .facility-container img {
+    width: 100px;
+    height: 100px;
+    color: #fff;
+  }
+}
+/*== my sec-4==*/
+.testimony{
+    max-width: 500px;
+    font-size: 15px
+}
